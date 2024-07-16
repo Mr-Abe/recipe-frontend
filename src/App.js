@@ -13,9 +13,9 @@ function App() {
         <Header />
         <Routes>
           {/* Use the element prop to pass components */}
-          <Route path="/" element={<RecipeList />} exact />
-          <Route path="/recipe/:id" element={<Recipe />} exact />
-          <Route path="/rate" element={<RatingSystem />} exact />
+          <Route path="/" element={<RecipeList />} />
+          <Route path="/recipe/:id" element={<Recipe />} />
+          <Route path="/rate" element={<RatingSystem />} />
         </Routes>
       </div>
     </Router>
